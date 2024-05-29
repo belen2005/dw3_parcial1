@@ -12210,8 +12210,8 @@ textarea.form-control-lg {
   }
 }
 .main h1, .main .h1 {
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: 400;
   color: #ca7b42;
   display: flex;
   justify-content: center;
