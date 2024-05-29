@@ -11853,6 +11853,11 @@ textarea.form-control-lg {
   position: relative;
   font-family: "Playfair";
 }
+@media (max-width: 768px) {
+  .mainHeader {
+    background-attachment: scroll;
+  }
+}
 .mainHeader .wave {
   position: absolute;
   bottom: 0px;

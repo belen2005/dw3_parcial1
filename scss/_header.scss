@@ -10,6 +10,9 @@
   background-attachment: fixed;
   position: relative;
   font-family: $primary-font;
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
   .wave {
     position: absolute;
     bottom: 0px; // Ajusta este valor para mover la ola hacia arriba o hacia abajo
