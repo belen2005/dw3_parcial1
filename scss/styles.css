@@ -12213,9 +12213,6 @@ textarea.form-control-lg {
   font-size: 4rem;
   font-weight: 400;
   color: #ca7b42;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .main nav {
   text-align: right;
