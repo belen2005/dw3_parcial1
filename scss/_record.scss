@@ -10,6 +10,9 @@
   background-attachment: fixed;
   background-position: center 55%;
   font-family: $primary-font;
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
 
   h1 {
     font-size: 5rem;

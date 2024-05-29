@@ -12204,6 +12204,11 @@ textarea.form-control-lg {
   background-position: center 55%;
   font-family: "Playfair";
 }
+@media (max-width: 768px) {
+  .main {
+    background-attachment: scroll;
+  }
+}
 .main h1, .main .h1 {
   font-size: 5rem;
   font-weight: 700;
