@@ -1,14 +1,301 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bakery kitchen</title>
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
+
 <body>
-    <section>
-        <h1 id="main-title">El arte de elaborar pan y productos de panadería de manera artesanal.</h1>
-        <p></p>
-      </section>
+    <header class="mainHeader">
+        <nav class="container navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> Bakery kitchen <img src="img/planta-de-trigo.png" alt="Trigo"
+                        class="trigo-icon"></a>
+                <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuColapsable" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuColapsable">
+                    <ul class="navbar-nav me-auto me-lg-0 ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="informacion.html">Más información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="historial.html">Fundación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container h-100">
+            <div class="row h-100 align-items-center ">
+                <div class="col-lg-8">
+                    <h1 class="text-white">Taller de Panadería - Reposteria
+                    </h1>
+                    <h1 class="text-white">Próximo comienzo: <br>
+                        19 de agosto, 2024
+                    </h1>
+                    <a href="informacion.html" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #31160a;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="courses">
+            <div class="container">
+                <h2 class="text-center mb-5">Cursos de Panadería en Bakery kitchen </h2>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div id="carousel1" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/amasado.webp" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/leudado.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/pan basico 1.avif" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3>Curso Básico de Panadería</h3>
+                                <p class="card-text">
+                                    <strong>Duración:</strong> 2 semanas<br>
+                                    <strong>Horario:</strong> Lunes a Viernes, 9:00 am - 12:00 pm
+                                </p>
+                                <h4>Contenido:</h4>
+                                <ul>
+                                    <li>Introducción a los ingredientes básicos de panadería</li>
+                                    <li>Técnicas de amasado y fermentación</li>
+                                    <li>Preparación de panes básicos como pan blanco, integral y de molde</li>
+                                    <li>Decoración y presentación de panes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div id="carousel2" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/imagen intermedio.jpeg" class="d-block w-100 img-thumbnail"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/pan brioceh.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/centeneo.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3>Curso Intermedio de Panadería</h3>
+                                <p class="card-text">
+                                    <strong>Duración:</strong> 4 semanas<br>
+                                    <strong>Horario:</strong> Lunes a Viernes, 9:00 am - 1:00 pm
+                                </p>
+                                <h4>Contenido:</h4>
+                                <ul>
+                                    <li>Profundización en técnicas de panadería</li>
+                                    <li>Elaboración de panes especiales como brioche, croissants y panes de centeno</li>
+                                    <li>Introducción a la pastelería básica</li>
+                                    <li>Técnicas de decoración y presentación avanzadas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div id="carousel3" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/pexels-bruthethe-1755785.jpg" class="d-block w-100 img-thumbnail"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/catrinas-mexicana-cultura-del-pan.jpg"
+                                            class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/1685375401713.jfif" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3>Curso Avanzado de Panadería</h3>
+                                <p class="card-text">
+                                    <strong>Duración:</strong> 8 semanas<br>
+                                    <strong>Horario:</strong> Lunes a Viernes, 9:00 am - 3:00 pm
+                                </p>
+                                <h4>Contenido:</h4>
+                                <ul>
+                                    <li>Perfeccionamiento de técnicas de panadería y pastelería</li>
+                                    <li>Elaboración de panes artesanales y especiales de diferentes culturas</li>
+                                    <li>Creación de panes con ingredientes especiales y sin gluten</li>
+                                    <li>Diseño y decoración de panes y pasteles para ocasiones especiales</li>
+                                    <li>Prácticas en la panadería de la escuela y visitas a panaderías locales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div id="carousel4" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/web-pastel-de-chocolate-2-1200x600.jpg"
+                                            class="d-block w-100 img-thumbnail" alt="pastel de chocolate">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/450_1000.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/pexels-nord6-1775283.jpg" class="d-block w-100 img-thumbnail"
+                                            alt="galletas">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3>Curso de Repostería</h3>
+                                <p class="card-text">
+                                    <strong>Duración:</strong> 3 semanas<br>
+                                    <strong>Horario:</strong> Lunes a Viernes, 9:00 am - 2:00 pm
+                                </p>
+                                <h4>Contenido:</h4>
+                                <ul>
+                                    <li>Introducción a las técnicas básicas de repostería</li>
+                                    <li>Preparación de pasteles, tartas y galletas</li>
+                                    <li>Decoración de pasteles con cremas y fondant</li>
+                                    <li>Elaboración de postres y dulces típicos de diferentes países</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="text-center mt-5">
+                    <p class="card-text">Todos nuestros cursos incluyen:</p>
+                    <ul class="list-unstyled">
+                        <li>Materiales y equipos de panadería</li>
+                        <li>Certificado de finalización</li>
+                        <li>Descuentos en productos de la panadería</li>
+                    </ul>
+                    <a href="contacto.html" class="btn btn-primary">¡Inscríbete ahora!</a>
+                </div>
+        </section>
+        <a href="https://wa.me/your-phone-number" target="_blank" class="whatsapp-icon">
+            <img src="img/whatsapp.png" alt="WhatsApp">
+        </a>
+    </main>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

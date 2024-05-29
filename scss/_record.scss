@@ -1,0 +1,92 @@
+.main {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(45 45 45 / 50%),
+      rgb(0 0 0 / 47%)
+    ),
+    url(/img/pexels-cruz-in-portugal-20387513.jpg);
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 55%;
+  font-family: $primary-font;
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $secundario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    text-align: right;
+    padding: 0 !important;
+    background: #31160a7a;
+
+    a {
+      color: $secundario;
+      font-weight: 400;
+      text-decoration: none;
+      padding-right: 0 !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#historia {
+  background: #714424 url(/img/zigzag.jpg) no-repeat right center;
+  background-blend-mode: multiply;
+  figure {
+    margin: 0 !important;
+    padding: 0;
+  }
+  .col-md-4 {
+    padding: 0;
+  }
+  .col-md-3 {
+    padding: 0;
+  }
+  p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+    samp {
+      font-style: italic;
+      color: #f9c784;
+    }
+  }
+
+  aside {
+    background-color: $danger;
+    border-radius: 0.5em 0 0 0;
+    box-shadow: -20px 20px 0 rgb(158, 95, 37);
+
+    p {
+      background: url(/img/quote-01.svg) no-repeat right top;
+      background-size: 35px;
+      padding-top: 3em;
+    }
+    q {
+      color: $quinto;
+    }
+    cite {
+      color: $quinto;
+    }
+  }
+}
+.row {
+  --bs-gutter-x: none !important;
+}

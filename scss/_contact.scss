@@ -1,0 +1,98 @@
+.contact {
+  background-color: $quinto;
+}
+
+.form-area {
+  padding-top: 10%;
+
+  @media (max-width: 767px) {
+    padding-top: 15%;
+  }
+}
+
+.single-form {
+  box-shadow: 0 2px 20px -5px rgba(255, 255, 255, 0.973);
+  background: #fff;
+
+  @media (max-width: 767px) {
+    box-shadow: none;
+  }
+}
+
+.left {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(45 22 12 / 46%),
+      rgb(93 48 28 / 51%)
+    ),
+    url("/img/pexels-bruthethe-1755785.jpg");
+  padding: 200px 20px;
+  background-size: cover;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+    samp {
+      font-style: italic;
+      color: #f9c784;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: #e0e0e0;
+      margin-top: 10px;
+    }
+  }
+}
+
+.right {
+  padding: 70px 100px;
+  position: relative;
+
+  @media (max-width: 767px) {
+    padding: 40px 20px;
+  }
+
+  button {
+    border: none;
+    border-radius: 0;
+    background-color: $secundario;
+    width: 100%;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+  button:hover {
+    background: $quinto;
+    color: #fff;
+  }
+}
+
+.form-control {
+  border: 2px solid #000;
+}
+
+.fa-caret-left {
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

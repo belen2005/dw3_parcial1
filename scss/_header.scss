@@ -1,0 +1,87 @@
+.mainHeader {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(45 22 12 / 46%),
+      rgb(93 48 28 / 51%)
+    ),
+    url("/img/pexels-bruthethe-1755785.jpg");
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  font-family: $primary-font;
+  .wave {
+    position: absolute;
+    bottom: 0px; // Ajusta este valor para mover la ola hacia arriba o hacia abajo
+    width: 100%;
+  }
+
+  nav {
+    text-align: right;
+    padding: 0 !important;
+    background: #31160a7a;
+
+    a {
+      color: $secundario;
+      font-weight: 400;
+      text-decoration: none;
+      padding-right: 0 !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.headerMain {
+  nav {
+    text-align: right;
+    padding: 0 !important;
+    background: #31160a48;
+
+    a {
+      color: $secundario;
+      font-weight: 400;
+      text-decoration: none;
+      padding-right: 0 !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .container-fluid {
+    padding: 0 !important;
+  }
+}
+
+.btn-primary {
+  background-color: $secundario;
+  border-color: $secundario;
+
+  &:hover {
+    background-color: darken($secundario, 10%);
+    border-color: darken($secundario, 10%);
+  }
+}
+
+.collapse {
+  a {
+    color: $secundario;
+  }
+
+  button {
+    background-color: $secundario;
+  }
+}
+
+.navbar-brand {
+  font-family: "Playfair", cursive; // Cambia la fuente del texto "Cookpad"
+  font-size: 1.5rem; // Ajusta el tamaño de fuente según tus preferencias
+  display: flex; // Utiliza flexbox para alinear el icono y el texto
+  align-items: center; // Centra verticalmente el icono y el texto
+  color: $secundario;
+
+  .trigo-icon {
+    margin-left: 0.5rem; // Agrega un margen izquierdo al icono
+    height: 1.2em; // Ajusta el tamaño del icono según tus preferencias
+  }
+}

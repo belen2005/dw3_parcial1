@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery kitchen</title>
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+
+<body class="contact">
+    <header class="headerMain">
+        <nav class="container navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> Bakery kitchen <img src="img/planta-de-trigo.png" alt="Trigo"
+                        class="trigo-icon"></a>
+                <button class="navbar-toggler btn-primary me-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuColapsable" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse me-2" id="menuColapsable">
+                    <ul class="navbar-nav me-auto me-lg-0 ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="informacion.html">Más información</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="historial.html">Fundación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="form-area">
+        <div class="container">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+                        <h2>
+                            <samp>Contacto</samp> <br>
+                            <p>Si tienes alguna pregunta, sugerencia, <br> ¡no dudes en ponerte en contacto con
+                                nosotros!</p>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="right">
+                        <i class="fa fa-caret-left"></i>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="exampleInputPassword1"></textarea>
+                            </div>
+                            <button type="submit" class="btn ">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+/// Estilos para el enlace a WhatsApp
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-size: 16px;
+  z-index: 1000;
+
+  &:hover {
+    background-color: darken(#25d366, 10%);
+    border-color: darken(#25d366, 10%);
+    color: #fff;
+  }
+
+  .fab {
+    margin-right: 0;
+  }
+}
+
+// Estilos para el icono de WhatsApp
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(#25d366, 10%);
+  }
+
+  img {
+    vertical-align: middle;
+  }
+}
